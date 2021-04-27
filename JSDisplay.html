@@ -1,0 +1,59 @@
+<!-- JavaScript can "display" data in different ways:
+
+Writing into an HTML element, using innerHTML.
+Writing into the HTML output using document.write().
+Writing into an alert box, using window.alert().
+
+-->
+<!--Inner HTML-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Inner html Test Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+</body>
+</html>
+
+<!--alert box-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Alert Test Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+window.alert("hey");
+</script>
+
+</body>
+</html>
+
+<!--Doc write-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Doc Write Test Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+document.write(15 + 6);
+</script>
+
+</body>
+</html>
+
+
+
+
